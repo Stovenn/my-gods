@@ -64,15 +64,3 @@ func (h *MaxHeap) maxHeapifyDown(index int) {
 func (h *MaxHeap) swap(i, j int) {
 	h.items[i], h.items[j] = h.items[j], h.items[i]
 }
-
-func left(parentIndex int) int {
-	return parentIndex*2 + 1
-}
-
-func right(parentIndex int) int {
-	return parentIndex*2 + 2
-}
-
-func parent(childIndex int) int {
-	return (childIndex - 1) / 2
-}
