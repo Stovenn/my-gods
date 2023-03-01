@@ -1,14 +1,18 @@
 package main
 
-import (
-	"fmt"
-	"github.com/stovenn/my-gods/datastructures/list/doublylinkedlist"
-)
-
 func main() {
-	dl := doublylinkedlist.NewDoublyLinkedList[int]()
-	dl.AddHead(30)
-	fmt.Printf("%+v\n", dl)
-	dl.AddHead(100)
-	fmt.Printf("%+v\n", dl)
+	// dll := doublylinkedlist.NewDoublyLinkedList[int]()
+
+	// fmt.Println(dll.IsEmpty())
+	// dll.AddTail(1)
+	// dll.AddTail(2)
+	// dll.AddTail(3)
+	// dll.AddTail(4)
+	// fmt.Println(dll.IsEmpty())
+
+	// dll.Print()
+	// fmt.Println(dll.Find(1))
+	// fmt.Println(dll.Contains(1))
+	// fmt.Println(dll.Contains(5))
+
 }

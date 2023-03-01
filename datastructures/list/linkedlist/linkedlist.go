@@ -5,12 +5,12 @@ import (
 )
 
 type Node[T any] struct {
-	Value T
-	Next  *Node[T]
+	value T
+	next  *Node[T]
 }
 
 func NewNode[T any](val T) *Node[T] {
-	return &Node[T]{Value: val}
+	return &Node[T]{value: val}
 }
 
 type LinkedList[T any] struct {
@@ -28,7 +28,7 @@ func (l *LinkedList[T]) Push(item T) {
 	}
 	head := l.head
 	n := NewNode(item)
-	n.Next = head
+	n.next = head
 	l.head = n
 }
 
@@ -37,8 +37,8 @@ func (l *LinkedList[T]) Pop() T {
 		log.Println("Empty Linked-list")
 		return *new(T)
 	}
-	popped := l.head.Value
-	l.head = l.head.Next
+	popped := l.head.value
+	l.head = l.head.next
 	return popped
 }
 
