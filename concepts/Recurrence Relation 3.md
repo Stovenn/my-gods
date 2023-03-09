@@ -1,4 +1,4 @@
-# Recurrence Relation (T(n) = T(n-1)+1) #3
+# Recurrence Relation (T(n) = aT(n-1)+1) #3
 
 ## Recursive algorithm
 
@@ -31,6 +31,7 @@ T(n) = 2T(n-1) + 1
     1  T(n-3) T(n-3) same    same     same        
        
 ```
+
 Each calls increase by the power of 2:  
 
 So we have :
@@ -40,5 +41,5 @@ so k = n
 We can then write  
 $$ T(n)= 2^{n+1}-1$$
 
-We can conclude that the time taken by the algorithm is: 
+We can conclude that the time taken by the algorithm is:  
 $$ \theta(2^n) $$

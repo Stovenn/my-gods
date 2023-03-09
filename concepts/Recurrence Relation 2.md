@@ -1,4 +1,4 @@
-# Recurrence Relation (T(n) = T(n-1)+1) #2
+# Recurrence Relation (T(n) = T(n-1)+n) #2
 
 ## Recursive algorithm
 
@@ -52,5 +52,5 @@ $$0+1+2+...+(n-1)+n $$
 so that
 $$T(n) = {n+(n+1)\over2}$$
 
-We can conclude that the time taken by the algorithm is: 
+We can conclude that the time taken by the algorithm is:  
 $$ \theta(n^2) $$
