@@ -2,7 +2,7 @@ package usescases
 
 import (
 	"fmt"
-	"github.com/stovenn/my-gods/algorithms/weightedquickunion"
+	"my-gods/algorithms/weightedquickunion"
 )
 
 const (

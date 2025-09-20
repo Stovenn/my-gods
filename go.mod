@@ -1,3 +1,3 @@
-module github.com/stovenn/my-gods
+module my-gods
 
-go 1.19
+go 1.24
